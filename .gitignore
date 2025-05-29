@@ -1,0 +1,15 @@
+*
+!file
+!file/*
+!file/**/*
+!package
+!package/*
+!package/**/*
+!src
+!src/*
+!src/**/*
+!.gitignore
+!composer.json
+!README.md
+!LICENSE
+!function.php

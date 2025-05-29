@@ -1,0 +1,21 @@
+{
+  "name":"alone-php/safe",
+  "type":"library",
+  "license":"MIT",
+  "version":"1.0.0",
+  "description":"加密解密",
+  "require":{
+    "php":">=8.0"
+  },
+  "autoload":{
+    "psr-4":{
+      "AlonePhp\\Safe\\":"src/",
+      "AlonePack\\Phpseclib3\\":"package/phpseclib/",
+      "AlonePack\\ParagonIE\\ConstantTime\\":"package/ConstantTime/"
+    },
+    "files":[
+      "function.php",
+      "package/phpseclib/bootstrap.php"
+    ]
+  }
+}
